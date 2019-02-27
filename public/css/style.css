@@ -10,35 +10,44 @@ body, html {
 
 }
 
-a {
-    color: #fcfbf4 !important;
-}
-
 #navLogo {
     padding-left: 5%;
 }
 
 #logo {
-    height: 10em;
+    height: 5em;
 }
 
 #collapsingNavbar3{
     padding-right: 5%;
 }
 
-#name {
-    font-size: 3em;
+#navbar a {
+    display: block;
+    color: #f2f2f2;
+    /* text-align: center; */
+    /* padding: 14px 16px; */
+    /* text-decoration: none; */
+    /* font-size: 17px; */
+}
+  
+#navbar a:hover {
+    /* background-color: #ddd; */
+    color: black;
+}
+  
+#navbar a.active {
+    background-color: #4CAF50;
+    color: white;
 }
 
-#links {
-    font-size: 1.2em;
-    
-}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
 
-.nav-item:hover{
-    /* background-color: pink; */
-    font-size:1.4em;
-}
 
 
 /* Card Deck */

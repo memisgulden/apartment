@@ -23,17 +23,15 @@
 <body>
 
     <!-- Nav Bar-->
-    <nav class="navbar navbar-light navbar-expand-md justify-content-center" id="navbar">
+    <nav class="navbar navbar-expand-md justify-content-center" class="sticky" id="navbar">
 
         <div class="col" id="navLogo">
             <img id="logo" src="photos/Screen Shot 2018-12-06 at 1.31.17 PM.png">
         </div>
 
         <div class="col">
-            <h1 id="name" class="navbar-brand d-flex mr-auto" style="color: #fcfbf4">Mount Laurel Manor</h1>
-            <p style="font-size: 1.2em">123 Fake St. Mount Laurel, NJ 00000</p>
-            <p style="font-size: 1.2em">1-800-123-4567</p>
-        </div>
+            <h2 id="name" class="navbar-brand d-flex mr-auto" style="color: #fcfbf4">Mount Laurel Manor</h2>
+        </div>    
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
             <span class="navbar-toggler-icon"></span>
@@ -41,7 +39,7 @@
 
         <div class="col navbar-collapse collapse " id="collapsingNavbar3" style="color: #fcfbf4">
 
-            <ul id="links" class="nav navbar-nav ml-auto w-100 justify-content-end">
+            <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Features</a>
                 </li>
@@ -62,7 +60,21 @@
                 </li>
             </ul>
         </div>
+
+         
     </nav>
+
+    <!-- Address and Phone Number Nav Bar-->
+    <nav class="navbar navbar-light bg-dark navbar-expand-md justify-content-center">
+        <div class="col text-left">
+            <p style="font-size: 1em"><i class="fa fa-map-marker" aria-hidden="true"></i>123 Fake St. Mount Laurel, NJ 00000</p>
+        </div>
+
+        <div class="col text-right">
+            <p style="font-size: 1em"><i class="fa fa-phone" aria-hidden="true"></i>1-800-123-4567</p>
+        </div>    
+    </nav>
+
 
     <!-- Wrap Content in Container for Gutters-->
     <div class="container">
