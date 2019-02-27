@@ -13,9 +13,32 @@ a {
     color: #fcfbf4 !important;
 }
 
-#logo {
-    height: 150px;
+#navLogo {
+    padding-left: 6%;
 }
+
+#logo {
+    height: 10em;
+}
+
+#collapsingNavbar3{
+    padding-right: 5%;
+}
+
+#name {
+    font-size: 3em;
+}
+
+#links {
+    font-size: 1.2em;
+    
+}
+
+.nav-item:hover{
+    /* background-color: pink; */
+    font-size:1.4em;
+}
+
 
 /* Description */
 #description {
